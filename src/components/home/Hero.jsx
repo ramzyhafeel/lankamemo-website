@@ -178,13 +178,6 @@ export default function Hero() {
               </motion.span>
             </motion.button>
           </motion.div>
-
-          {/* Optional: remove this after you add the images */}
-          <div className="absolute bottom-5 left-0 right-0 text-center text-xs text-white/45">
-            Tip: add images in{" "}
-            <span className="text-white/70">public/images/hero/hero1.jpg</span>{" "}
-            etc.
-          </div>
         </div>
       </Container>
     </section>
