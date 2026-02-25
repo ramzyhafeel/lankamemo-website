@@ -148,9 +148,6 @@ export default function PromotionsSlider() {
           ))}
         </div>
 
-        <div className="mt-4 text-xs text-muted">
-          Tip: Add images in <span className="font-medium">public/images/</span> for perfect visuals.
-        </div>
       </Container>
     </section>
   );

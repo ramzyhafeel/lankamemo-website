@@ -46,9 +46,6 @@ export default function GalleryPreview() {
           ))}
         </div>
 
-        <div className="mt-4 text-xs text-muted">
-          Tip: Add images <span className="font-medium">public/images/gal-1.jpg</span> … <span className="font-medium">gal-6.jpg</span>
-        </div>
       </Container>
     </section>
   );
