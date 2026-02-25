@@ -119,7 +119,7 @@ export default function PromotionsSlider() {
                 <div className="mt-5">
                   {p.href ? (
                     <a
-                      href={p.href}
+                      href={waLink(p.whatsappPrefill || `Hi! I’m interested in: ${p.title}`)}
                       className="btn px-5 py-2.5 text-sm"
                       style={{
                         background: "var(--accent)",

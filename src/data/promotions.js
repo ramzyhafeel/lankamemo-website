@@ -5,8 +5,8 @@ export const promotions = [
     blurb: "Sigiriya + Dambulla + Kandy with a private guide. Limited-time offer.",
     tag: "7 Days",
     image: "/images/promo-1.jpg",
-    ctaLabel: "View Details",
-    href: "/packages/cultural-triangle-explorer",
+    ctaLabel: "WhatsApp to Book",
+    whatsappPrefill: "Hi! I want to book the Cultural Triangle Special promotion.",
   },
   {
     id: "promo-2",
@@ -23,7 +23,7 @@ export const promotions = [
     blurb: "Yala jeep safari + Udawalawe elephants. Best season recommendations.",
     tag: "Save 10%",
     image: "/images/promo-3.jpg",
-    ctaLabel: "View Details",
-    href: "/packages/wildlife-safari-adventure",
+    ctaLabel: "WhatsApp to Book",
+    whatsappPrefill: "Hi! I want to book the Wildlife Safari Offer promotion.",
   },
 ];
