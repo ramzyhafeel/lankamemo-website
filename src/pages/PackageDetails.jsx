@@ -8,7 +8,7 @@ import Seo from "../components/seo/Seo";
 import { packages } from "../data/packages";
 import { site } from "../data/site";
 import { packageSeo } from "../utils/seoHelpers";
-import { ArrowLeft, BadgeDollarSign, Clock, CheckCircle, XCircle } from "lucide-react";
+import { ArrowLeft, Clock, CheckCircle, XCircle } from "lucide-react";
 
 export default function PackageDetails() {
   const { slug } = useParams();
@@ -48,7 +48,7 @@ export default function PackageDetails() {
       <Seo path="/packages" override={seoOverride} />
 
       <Layout whatsappMessage={`Hi Lanka Memo Holidays! I’m interested in the package ${pkg.title}.`}>
-        <PageHero title={pkg.title} subtitle={`${pkg.duration} • ${pkg.price}`} image={pkg.heroImage} />
+        <PageHero title={pkg.title} subtitle={`${pkg.duration}`} image={pkg.heroImage} />
 
         <Container className="py-14">
           <Link
@@ -73,18 +73,6 @@ export default function PackageDetails() {
                 <Clock size={16} /> {pkg.duration}
               </span>
 
-              <span
-                className="px-4 py-2 text-sm font-medium inline-flex items-center gap-2"
-                style={{
-                  borderRadius: 999,
-                  background: "rgba(212,162,76,0.10)",
-                  border: "1px solid rgba(212,162,76,0.22)",
-                  color: "var(--text)",
-                }}
-              >
-                <BadgeDollarSign size={16} style={{ color: "var(--gold)" }} />
-                {pkg.price}
-              </span>
             </div>
 
             <a

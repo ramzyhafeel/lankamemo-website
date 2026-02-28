@@ -1,192 +1,427 @@
+// src/data/packages.js
 export const packages = [
+  // ✅ 4 DAYS (Ascending order start)
   {
-    title: "Cultural Triangle Explorer",
-    slug: "cultural-triangle-explorer",
-    duration: "7 Days",
-    price: "From $899",
-    heroImage: "/images/pkg-cultural.jpg",
+    title: "4 Days Memo",
+    slug: "4-days-memo",
+    duration: "4 Days",
+    heroImage: "/images/pkg-memo-4.jpg",
     highlights: [
-      "Sigiriya Rock Fortress & Dambulla Cave Temple",
-      "Kandy Temple + cultural show",
-      "Private vehicle with driver",
-      "Optional wildlife safari add-on",
+      "Kandy culture & Temple of Tooth",
+      "Nuwara Eliya tea country highlights",
+      "Madu River safari & Turtle Hatchery",
+      "Colombo city tour + Lotus Tower",
     ],
     itinerary: [
       {
-        day: "Day 1",
-        title: "Arrival & Negombo",
+        day: "Day 01",
+        title: "Arrival ➝ Kandy",
         details:
-          "Airport pickup and transfer to Negombo. Relax and recover from travel. Optional beach walk and seafood dinner.",
+          "Pick up from Bandaranaike International Airport. Elephant Safari experience. Spice Garden Visit. Temple of the Sacred Tooth Relic. Kandy Lake. View Point. Gem Museum. Cultural Dance Show.",
       },
       {
-        day: "Day 2",
-        title: "Dambulla & Village Experience",
+        day: "Day 02",
+        title: "Kandy ➝ Nuwara Eliya",
         details:
-          "Visit Dambulla Cave Temple. Enjoy a local village experience and optional cooking demo.",
+          "Ambuluwawa Tower. Hanuman Temple. Ramboda Waterfall. Tea Factory & Tea Garden. Post Office (Nuwara Eliya). Gregory Lake. Seetha Amman Temple.",
       },
       {
-        day: "Day 3",
-        title: "Sigiriya & Minneriya (Optional)",
+        day: "Day 03",
+        title: "Nuwara Eliya ➝ Bentota",
         details:
-          "Morning climb at Sigiriya (or Pidurangala). Optional Minneriya safari for elephants depending on season.",
+          "Madu River safari. Turtle Hatchery. Bentota Beach.",
       },
       {
-        day: "Day 4",
-        title: "Matale Spice Garden & Kandy",
+        day: "Day 04",
+        title: "Bentota ➝ Airport (Colombo City Tour)",
         details:
-          "Travel to Kandy via Matale spice garden. Evening cultural show (optional).",
-      },
-      {
-        day: "Day 5",
-        title: "Temple of the Tooth & Gardens",
-        details:
-          "Temple of the Tooth, Kandy lake walk, and Royal Botanical Gardens.",
-      },
-      {
-        day: "Day 6",
-        title: "Tea Country Day Trip",
-        details:
-          "Scenic day trip to tea country viewpoints and a tea factory visit with tasting.",
-      },
-      {
-        day: "Day 7",
-        title: "Departure",
-        details:
-          "Transfer to airport. We’ll plan timing based on your flight schedule.",
+          "Colombo city tour. Port City. Lotus Tower. Gangarama Temple. Shopping Mall Visit. Departure 🛫",
       },
     ],
     included: [
-      "Airport pickup & drop-off",
-      "Private air-conditioned vehicle",
-      "Professional driver",
-      "Customized itinerary planning",
+      "Welcome",
+      "Parking fee",
+      "High way entrance fee",
+      "Fuel",
+      "Driver Accommodation",
+      "Guide fee",
+      "Every day 2 bottles of water",
+      "01 SIM Card with 20 GB internet",
     ],
     notIncluded: [
-      "Hotel accommodation (can be arranged)",
-      "Entrance tickets (unless requested)",
+      "Hotel accommodation (unless arranged)",
+      "Entrance tickets / activity tickets",
       "Meals and personal expenses",
-      "Safari jeep fees (if applicable)",
     ],
   },
 
+  // ✅ 5 DAYS
   {
-    title: "Beach Paradise Getaway",
-    slug: "beach-paradise-getaway",
+    title: "5 Days Memo",
+    slug: "5-days-memo",
     duration: "5 Days",
-    price: "From $649",
-    heroImage: "/images/pkg-beach.jpg",
+    heroImage: "/images/pkg-memo-5.jpg",
     highlights: [
-      "Unawatuna & Mirissa beach days",
-      "Whale watching option (seasonal)",
-      "Galle Fort evening walk",
-      "Relaxed pace with private transport",
+      "Kandy + Nuwara Eliya + Ella + Mirissa",
+      "Scenic train ride + Nine Arch Bridge",
+      "Whale watching (seasonal) + Galle Fort",
+      "Colombo city tour + Port City",
     ],
     itinerary: [
-      { day: "Day 1", title: "Arrival & South Coast Transfer", details: "Airport pickup and transfer to the south coast. Settle in and enjoy a relaxed evening by the beach." },
-      { day: "Day 2", title: "Unawatuna & Jungle Beach", details: "Beach time, optional Jungle Beach visit, cafés and sunset viewpoints." },
-      { day: "Day 3", title: "Galle Fort", details: "Explore Galle Fort streets, boutiques and lighthouse. Evening ocean-view walk." },
-      { day: "Day 4", title: "Mirissa & Whale Watching (Optional)", details: "Mirissa beach day. Optional whale watching early morning (seasonal)." },
-      { day: "Day 5", title: "Departure", details: "Transfer to airport based on flight time." },
+      {
+        day: "Day 01",
+        title: "Arrival ➝ Kandy",
+        details:
+          "Pick up from Bandaranaike International Airport. Elephant Safari. Spice Garden Visit. Tooth Temple. Kandy Lake. View Point. Gem Museum. Cultural Dance.",
+      },
+      {
+        day: "Day 02",
+        title: "Kandy ➝ Nuwara Eliya",
+        details:
+          "Ambuluwawa Tower. Hanuman Temple. Ramboda Waterfall. Tea Factory & Tea Garden. Post Office (Nuwara Eliya). Gregory Lake. Seetha Amman Temple.",
+      },
+      {
+        day: "Day 03",
+        title: "Nuwara Eliya ➝ Mirissa (via Ella sights)",
+        details:
+          "Train Ride. Nine Arch Bridge. Zip Line. Little Adams Peak. Rawana Waterfall.",
+      },
+      {
+        day: "Day 04",
+        title: "Mirissa ➝ Colombo (South Coast + activities)",
+        details:
+          "Whale watching. Coconut Tree Hill. Galle Fort. Madu River safari. Turtle Hatchery.",
+      },
+      {
+        day: "Day 05",
+        title: "Colombo ➝ Airport",
+        details:
+          "Colombo city tour. Port City. Lotus Tower. Gangarama Temple. Shopping Mall Visit. Departure 🛫",
+      },
     ],
-    included: ["Airport pickup & drop-off", "Private vehicle with driver", "Itinerary planning"],
-    notIncluded: ["Hotels (can be arranged)", "Whale watching tickets", "Meals"],
+    included: [
+      "Welcome",
+      "Parking fee",
+      "High way entrance fee",
+      "Fuel",
+      "Driver Accommodation",
+      "Guide fee",
+      "Every day 2 bottles of water",
+      "01 SIM Card with 20 GB internet",
+    ],
+    notIncluded: [
+      "Hotel accommodation (unless arranged)",
+      "Entrance tickets / activity tickets",
+      "Meals and personal expenses",
+    ],
   },
 
+  // ✅ 6 DAYS
   {
-    title: "Wildlife Safari Adventure",
-    slug: "wildlife-safari-adventure",
+    title: "6 Days Memo",
+    slug: "6-days-memo",
     duration: "6 Days",
-    price: "From $1,099",
-    heroImage: "/images/pkg-wildlife.jpg",
+    heroImage: "/images/pkg-memo-6.jpg",
     highlights: [
-      "Yala safari + Udawalawe elephants",
-      "Best drive times for wildlife",
-      "Comfortable transport and planning",
-      "Great for families & photographers",
+      "Kandy + Nuwara Eliya + Ella + Mirissa",
+      "Yala Safari",
+      "Whale watching (seasonal) + Galle Fort",
+      "Colombo city tour + shopping",
     ],
     itinerary: [
-      { day: "Day 1", title: "Arrival & Transfer", details: "Airport pickup and transfer to your first stop. Rest and briefing for safari days." },
-      { day: "Day 2", title: "Udawalawe Safari", details: "Morning or afternoon safari in Udawalawe. High elephant sighting chance." },
-      { day: "Day 3", title: "Transfer to Yala", details: "Travel to Yala area. Optional beach stop depending on route." },
-      { day: "Day 4", title: "Yala Safari", details: "Early morning safari drive. Chance to spot leopards, elephants, crocodiles, birds." },
-      { day: "Day 5", title: "Relax / Optional second safari", details: "Leisure day or add a second safari drive for more sightings." },
-      { day: "Day 6", title: "Departure", details: "Airport transfer based on flight schedule." },
+      {
+        day: "Day 01",
+        title: "Arrival ➝ Kandy",
+        details:
+          "Pick up from Bandaranaike International Airport. Elephant Safari. Spice Garden Visit. Tooth Temple. Kandy Lake. View Point. Gem Museum. Cultural Dance.",
+      },
+      {
+        day: "Day 02",
+        title: "Kandy ➝ Nuwara Eliya",
+        details:
+          "Ambuluwawa Tower. Hanuman Temple. Ramboda Waterfall. Tea Factory & Tea Garden. Post Office (Nuwara Eliya). Gregory Lake. Seetha Amman Temple.",
+      },
+      {
+        day: "Day 03",
+        title: "Nuwara Eliya ➝ Ella",
+        details:
+          "Train Ride. Nine Arch Bridge. Zip Line. Little Adams Peak.",
+      },
+      {
+        day: "Day 04",
+        title: "Ella ➝ Mirissa",
+        details:
+          "Rawana Waterfall. Coconut Tree Hill. Yala Safari. Mirissa Beach.",
+      },
+      {
+        day: "Day 05",
+        title: "Mirissa ➝ Colombo",
+        details:
+          "Whale watching. Galle Fort. Madu River safari. Turtle Hatchery.",
+      },
+      {
+        day: "Day 06",
+        title: "Colombo ➝ Airport",
+        details:
+          "Colombo city tour. Port City. Lotus Tower. Gangarama Temple. Shopping Mall Visit. Departure 🛫",
+      },
     ],
-    included: ["Private vehicle with driver", "Itinerary planning", "Safari timing guidance"],
-    notIncluded: ["Safari jeep fees", "Park entrance tickets", "Hotels", "Meals"],
+    included: [
+      "Welcome",
+      "Parking fee",
+      "High way entrance fee",
+      "Fuel",
+      "Driver Accommodation",
+      "Guide fee",
+      "Every day 2 bottles of water",
+      "01 SIM Card with 20 GB internet",
+    ],
+    notIncluded: [
+      "Hotel accommodation (unless arranged)",
+      "Entrance tickets / activity tickets",
+      "Meals and personal expenses",
+    ],
   },
 
+  // ✅ 7 DAYS (Your “7-Day Magical Sri Lanka Tour”)
   {
-    title: "Hill Country & Tea Trails",
-    slug: "hill-country-tea-trails",
-    duration: "5 Days",
-    price: "From $749",
-    heroImage: "/images/pkg-hill.jpg",
-    highlights: [
-      "Ella + Nine Arches Bridge",
-      "Tea factory tour & tastings",
-      "Scenic train ride option",
-      "Cool climate escapes",
-    ],
-    itinerary: [
-      { day: "Day 1", title: "Arrival & Transfer", details: "Airport pickup and transfer toward the hill country." },
-      { day: "Day 2", title: "Nuwara Eliya Tea Country", details: "Tea estate visit, factory tour, and cool climate highlights." },
-      { day: "Day 3", title: "Scenic Train Ride (Optional)", details: "Train ride through tea valleys (subject to availability) and transfer to Ella." },
-      { day: "Day 4", title: "Ella Highlights", details: "Nine Arches Bridge, Little Adam’s Peak, waterfalls and viewpoints." },
-      { day: "Day 5", title: "Departure", details: "Transfer to airport based on flight time." },
-    ],
-    included: ["Private vehicle with driver", "Itinerary planning"],
-    notIncluded: ["Train tickets", "Hotels", "Meals", "Entrance fees"],
-  },
-
-  {
-    title: "Sri Lanka Highlights",
-    slug: "sri-lanka-highlights",
-    duration: "8 Days",
-    price: "From $1,199",
-    heroImage: "/images/pkg-highlights.jpg",
-    highlights: [
-      "Culture + hill country + beach mix",
-      "Balanced itinerary with comfort",
-      "Perfect for first-time visitors",
-      "Private tour style",
-    ],
-    itinerary: [
-      { day: "Day 1", title: "Arrival", details: "Airport pickup and rest day." },
-      { day: "Day 2", title: "Cultural sites", details: "Dambulla / Sigiriya region exploration." },
-      { day: "Day 3", title: "Kandy", details: "Temple, gardens, and cultural highlights." },
-      { day: "Day 4", title: "Tea country", details: "Nuwara Eliya tea estate visit and viewpoints." },
-      { day: "Day 5", title: "Ella", details: "Train ride option and Ella sightseeing." },
-      { day: "Day 6", title: "South coast", details: "Transfer to beach and relax." },
-      { day: "Day 7", title: "Galle Fort + beaches", details: "Galle Fort walk and beach time." },
-      { day: "Day 8", title: "Departure", details: "Airport transfer." },
-    ],
-    included: ["Private vehicle with driver", "Customized itinerary planning"],
-    notIncluded: ["Hotels", "Meals", "Tickets"],
-  },
-
-  {
-    title: "Luxury Private Tour",
-    slug: "luxury-private-tour",
+    title: "7 Days Memo",
+    slug: "7-days-memo",
     duration: "7 Days",
-    price: "From $1,699",
-    heroImage: "/images/pkg-luxury.jpg",
+    heroImage: "/images/pkg-memo-7.jpg",
     highlights: [
-      "Premium private experience",
-      "Handpicked stays (optional)",
-      "Flexible pace & curated stops",
-      "Dedicated support throughout",
+      "Sigiriya Lion Rock + Dambulla Cave Temple",
+      "Kandy culture + Temple of Tooth",
+      "Nuwara Eliya tea country + Gregory Lake",
+      "Ella train ride + Nine Arch Bridge",
+      "Yala Safari + Mirissa beach",
+      "Galle Fort + Madu River safari",
+      "Colombo city tour + Lotus Tower",
     ],
     itinerary: [
-      { day: "Day 1", title: "Arrival & VIP transfer", details: "Private pickup and premium transfer. Settle in with a relaxed evening." },
-      { day: "Day 2", title: "Curated cultural day", details: "Top cultural sites with flexible timing and comfort breaks." },
-      { day: "Day 3", title: "Tea country luxury", details: "Tea estate visit, scenic viewpoints, premium experiences." },
-      { day: "Day 4", title: "Exclusive experiences", details: "Choose: safari, wellness, photography, or private guide tours." },
-      { day: "Day 5", title: "South coast leisure", details: "Beach day with optional private activities." },
-      { day: "Day 6", title: "Galle Fort + dining", details: "Historic walk and recommended dining experiences." },
-      { day: "Day 7", title: "Departure", details: "Private airport transfer." },
+      {
+        day: "Day 01",
+        title: "Arrival / Sigiriya",
+        details:
+          "Pick up from Bandaranaike International Airport. Visit Dambulla Cave Temple (UNESCO Site). Explore Sigiriya Lion Rock Fortress. Traditional Village Safari. Overnight stay in Sigiriya.",
+      },
+      {
+        day: "Day 02",
+        title: "Sigiriya ➝ Kandy",
+        details:
+          "Elephant Safari. Spice & Herbal Garden. Temple of the Sacred Tooth Relic. Kandy Lake. Kandy View Point. Gem Museum. Cultural Dance Show. Overnight in Kandy.",
+      },
+      {
+        day: "Day 03",
+        title: "Kandy ➝ Nuwara Eliya",
+        details:
+          "Ambuluwawa Tower. Hanuman Temple. Ramboda Waterfall. Tea Factory & Tea Garden. Colonial Post Office. Gregory Lake. Seetha Amman Temple. Overnight in Nuwara Eliya.",
+      },
+      {
+        day: "Day 04",
+        title: "Nuwara Eliya ➝ Ella",
+        details:
+          "Scenic Train Ride (Nanu Oya to Ella). Nine Arch Bridge. Zip Lining Adventure. Little Adam’s Peak hike. Overnight in Ella.",
+      },
+      {
+        day: "Day 05",
+        title: "Ella ➝ Mirissa",
+        details:
+          "Rawana Waterfall. Coconut Tree Hill. Yala National Park Safari. Optional Water Sports. Relax at Mirissa Beach. Overnight in Mirissa.",
+      },
+      {
+        day: "Day 06",
+        title: "Mirissa ➝ Colombo",
+        details:
+          "Whale Watching Tour (seasonal). Visit Galle Fort. Madu River Boat Safari. Turtle Hatchery Visit. Overnight in Colombo.",
+      },
+      {
+        day: "Day 07",
+        title: "Colombo ➝ Airport",
+        details:
+          "Colombo City Tour. Port City. Lotus Tower. Gangaramaya Temple. Shopping Mall Visit. Departure 🛫",
+      },
     ],
-    included: ["Private vehicle + driver", "Priority support", "Custom planning"],
-    notIncluded: ["Luxury hotels (can be arranged)", "Tickets/activities", "Meals"],
+    included: [
+      "Welcome",
+      "Parking fee",
+      "High way entrance fee",
+      "Fuel",
+      "Driver Accommodation",
+      "Guide fee",
+      "Every day 2 bottles of water",
+      "01 SIM Card with 20 GB internet",
+      "double room with breakfast (as per your package)",
+    ],
+    notIncluded: [
+      "Entrance tickets / activity tickets (unless specified)",
+      "Meals (other than included breakfast if hotel included)",
+      "Personal expenses",
+    ],
+  },
+
+  // ✅ 8 DAYS
+  {
+    title: "8 Days Memo",
+    slug: "8-days-memo",
+    duration: "8 Days",
+    heroImage: "/images/pkg-memo-8.jpg",
+    highlights: [
+      "Sigiriya + Kandy + Nuwara Eliya + Ella",
+      "Yala Safari + whale watching (seasonal)",
+      "Beach + river safari + turtle hatchery",
+      "Colombo city tour + market + Red Mosque",
+    ],
+    itinerary: [
+      {
+        day: "Day 01",
+        title: "Airport ➝ Sigiriya",
+        details:
+          "Welcome. Sigiriya Lion Rock. Village Safari. Minneriya Safari.",
+      },
+      {
+        day: "Day 02",
+        title: "Sigiriya ➝ Kandy",
+        details:
+          "Pinnawala Elephant Orphanage. Spice Garden. View Point. Gem Museum. Cultural Dance.",
+      },
+      {
+        day: "Day 03",
+        title: "Kandy ➝ Nuwara Eliya",
+        details:
+          "Ambuluwawa Tower. Ramboda Waterfall. Tea Factory & Tea Garden. Nuwara Eliya Post Office. Gregory Lake. Seetha Amman Temple.",
+      },
+      {
+        day: "Day 04",
+        title: "Nuwara Eliya ➝ Ella",
+        details:
+          "Train Ride. Lipton Seat. Nine Arch Bridge. Zip Line. Little Adams Peak.",
+      },
+      {
+        day: "Day 05",
+        title: "Ella ➝ Mirissa",
+        details:
+          "Rawana Waterfall. Yala Safari.",
+      },
+      {
+        day: "Day 06",
+        title: "Mirissa ➝ Hikkaduwa",
+        details:
+          "Whale watching. Coconut Tree Hill. Secret Beach. Galle Fort.",
+      },
+      {
+        day: "Day 07",
+        title: "Hikkaduwa ➝ Colombo",
+        details:
+          "Madu River Safari. Turtle Hatchery. Water Sports.",
+      },
+      {
+        day: "Day 08",
+        title: "Colombo ➝ Airport",
+        details:
+          "Lotus Tower. Colombo City Tour. Colombo Market. Departure 🛫",
+      },
+    ],
+    included: [
+      "Welcome",
+      "Parking fee",
+      "High way entrance fee",
+      "Fuel",
+      "Driver Accommodation",
+      "Guide fee",
+      "Every day 2 bottles of water",
+      "01 SIM Card with 20 GB internet",
+    ],
+    notIncluded: [
+      "Hotel accommodation (unless arranged)",
+      "Entrance tickets / activity tickets",
+      "Meals and personal expenses",
+    ],
+  },
+
+  // ✅ 9 DAYS
+  {
+    title: "9 Days Memo",
+    slug: "9-days-memo",
+    duration: "9 Days",
+    heroImage: "/images/pkg-memo-9.jpg",
+    highlights: [
+      "Sigiriya + Kandy + Nuwara Eliya (2 days) + Ella",
+      "Horton Plains National Park",
+      "Yala Safari + whale watching (seasonal)",
+      "Bentota water sports + Ayurveda spa",
+      "Colombo city tour + Red Mosque",
+    ],
+    itinerary: [
+      {
+        day: "Day 01",
+        title: "Airport ➝ Sigiriya",
+        details:
+          "Welcome. Sigiriya Lion Rock. Village Safari. Minneriya Safari.",
+      },
+      {
+        day: "Day 02",
+        title: "Sigiriya ➝ Kandy",
+        details:
+          "Pinnawala Elephant Orphanage. Spice Garden. View Point. Gem Museum. Cultural Dance.",
+      },
+      {
+        day: "Day 03",
+        title: "Kandy ➝ Nuwara Eliya",
+        details:
+          "Ambuluwawa Tower. Ramboda Waterfall. Tea Factory & Tea Garden. Nuwara Eliya Post Office. Gregory Lake. Seetha Amman Temple.",
+      },
+      {
+        day: "Day 04",
+        title: "Nuwara Eliya (Extra Day)",
+        details:
+          "Horton Plains National Park (as per your real detail Day 03/04 list).",
+      },
+      {
+        day: "Day 05",
+        title: "Nuwara Eliya ➝ Ella",
+        details:
+          "Train Ride. Lipton Seat. Nine Arch Bridge. Zip Line. Little Adams Peak.",
+      },
+      {
+        day: "Day 06",
+        title: "Ella ➝ Mirissa",
+        details:
+          "Rawana Waterfall. Yala Safari.",
+      },
+      {
+        day: "Day 07",
+        title: "Mirissa ➝ Bentota",
+        details:
+          "Whale watching. Coconut Tree Hill. Secret Beach. Galle Fort.",
+      },
+      {
+        day: "Day 08",
+        title: "Bentota ➝ Colombo (via activities)",
+        details:
+          "Madu River Safari. Turtle Hatchery. Water Sports. Ayurvedic Spa.",
+      },
+      {
+        day: "Day 09",
+        title: "Colombo ➝ Airport",
+        details:
+          "Lotus Tower. Colombo City Tour. Colombo Market. Red Mosque. Departure 🛫",
+      },
+    ],
+    included: [
+      "Welcome",
+      "Parking fee",
+      "High way entrance fee",
+      "Fuel",
+      "Driver Accommodation",
+      "Guide fee",
+      "Every day 2 bottles of water",
+      "01 SIM Card with 20 GB internet",
+    ],
+    notIncluded: [
+      "Hotel accommodation (unless arranged)",
+      "Entrance tickets / activity tickets",
+      "Meals and personal expenses",
+    ],
   },
 ];

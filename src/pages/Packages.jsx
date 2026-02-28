@@ -3,7 +3,7 @@ import Layout from "../components/layout/Layout";
 import Container from "../components/layout/Container";
 import PageHero from "../components/ui/PageHero";
 import { packages } from "../data/packages";
-import { ArrowRight, Clock, BadgeDollarSign, Check } from "lucide-react";
+import { ArrowRight, Clock, Check } from "lucide-react";
 
 export default function Packages() {
   const nav = useNavigate();
@@ -46,11 +46,6 @@ export default function Packages() {
 
               <div className="p-6">
                 <h3 className="text-lg font-semibold">{p.title}</h3>
-
-                <div className="mt-3 inline-flex items-center gap-2 text-sm font-medium">
-                  <BadgeDollarSign size={18} style={{ color: "var(--accent)" }} />
-                  <span>{p.price}</span>
-                </div>
 
                 <ul className="mt-4 space-y-2">
                   {p.highlights.slice(0, 4).map((h) => (
