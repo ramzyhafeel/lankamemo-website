@@ -1,10 +1,8 @@
 import Container from "./Container";
 import { site } from "../../data/site";
-import { Facebook, Instagram, Youtube, MessageCircle, ExternalLink } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 import logo from "../../assets/logo.png";
 import { FaWhatsapp } from "react-icons/fa";
-
-
 
 export default function Footer() {
   return (
@@ -40,13 +38,14 @@ export default function Footer() {
             </div>
 
             <p className="mt-4 text-sm text-muted leading-relaxed">
-              Trusted Sri Lanka tours with custom itineraries, local expertise, and
-              premium travel support — crafted for unforgettable journeys across the island.
+              Trusted Sri Lanka tours with custom itineraries, local expertise,
+              and premium travel support — crafted for unforgettable journeys
+              across the island.
             </p>
 
             {/* Social icons */}
             <div className="mt-4 flex items-center gap-3">
-              <Social href="https://wa.me/94771234567" label="WhatsApp">
+              <Social href="https://wa.me/+94767462929" label="WhatsApp">
                 <FaWhatsapp size={18} />
               </Social>
               <Social href="https://instagram.com/" label="Instagram">
@@ -56,29 +55,6 @@ export default function Footer() {
                 <Facebook size={18} />
               </Social>
             </div>
-
-            {/* TripAdvisor badge */}
-            {/* <a
-              href={site.tripAdvisorUrl || "https://www.tripadvisor.com/"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center gap-2 rounded-2xl px-3 py-2 transition hover:opacity-95"
-              style={{
-                background: "rgba(255,255,255,0.06)",
-                border: "1px solid rgba(255,255,255,0.12)",
-              }}
-              aria-label="View our TripAdvisor reviews"
-              title="View our TripAdvisor reviews"
-            >
-              <img
-                src={tripAdvisorBadge}
-                alt="TripAdvisor badge"
-                className="h-8 w-auto object-contain"
-              />
-              <span className="text-xs text-white/80 inline-flex items-center gap-1">
-                TripAdvisor Reviews <ExternalLink className="h-3.5 w-3.5" />
-              </span>
-            </a> */}
           </div>
 
           {/* Links */}
@@ -96,7 +72,7 @@ export default function Footer() {
             <div>
               <div className="font-semibold text-white">Contact</div>
               <ul className="mt-3 space-y-2 text-muted">
-                <li>WhatsApp: +94 77 123 4567</li>
+                <li>WhatsApp: +94 76 746 2929</li>
                 <li>Email: hello@yourdomain.lk</li>
                 <li>Sri Lanka</li>
               </ul>
@@ -106,14 +82,30 @@ export default function Footer() {
 
         {/* Bottom strip */}
         <div
-          className="mt-12 flex flex-col gap-2 border-t pt-6 text-xs text-muted"
+          className="mt-12 flex flex-col gap-3 border-t pt-6 text-xs text-muted md:flex-row md:items-center md:justify-between"
           style={{ borderColor: "var(--border)" }}
         >
           <div>
             © {new Date().getFullYear()} {site.brand}. All rights reserved.
           </div>
+
           <div>
-            Government registered tour operator • Premium private tours • Custom Sri Lanka itineraries
+            Government registered tour operator • Premium private tours • Custom
+            Sri Lanka itineraries
+          </div>
+
+          {/* Developer credit */}
+          <div className="text-[11px] opacity-70">
+            Designed & Developed by{" "}
+            <a
+              href="https://ramzyhafeel.me"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-white transition"
+              title="Mohamed Ramzy - Full Stack Developer Portfolio"
+            >
+              Mohamed Ramzy
+            </a>
           </div>
         </div>
       </Container>
