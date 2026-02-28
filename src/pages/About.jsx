@@ -24,6 +24,27 @@ function InitialAvatar({ name }) {
   );
 }
 
+function TeamAvatar({ name, image }) {
+  if (!image) return <InitialAvatar name={name} />;
+
+  return (
+    <img
+      src={image}
+      alt={name}
+      width={54}
+      height={54}
+      className="rounded-full object-cover"
+      style={{
+        width: 54,
+        height: 54,
+        border: "1px solid rgba(15,118,110,0.18)",
+        background: "rgba(15,118,110,0.06)",
+      }}
+      loading="lazy"
+    />
+  );
+}
+
 export default function About() {
   return (
     <Layout whatsappMessage="Hi Lanka Memo Holidays! I’d like to know more about your company and services.">
@@ -42,6 +63,7 @@ export default function About() {
           <h2 className="mt-3 text-3xl font-semibold">
             Built on trust, comfort, and unforgettable journeys
           </h2>
+
           <div className="mt-4 max-w-3xl space-y-4 text-sm text-muted leading-relaxed">
             <p>
               Lanka Memo Holidays is a Sri Lankan travel company focused on premium service and
@@ -93,7 +115,7 @@ export default function About() {
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {team.map((m) => (
               <article key={m.name} className="card p-6">
-                <InitialAvatar name={m.name} />
+                <TeamAvatar name={m.name} image={m.image} />
                 <div className="mt-4 font-semibold">{m.name}</div>
                 <div className="text-sm text-muted">{m.role}</div>
               </article>
