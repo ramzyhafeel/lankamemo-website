@@ -1,8 +1,8 @@
 export const gallery = [
-  { image: "/images/gal-1.jpg", caption: "Whale watching in Mirissa" },
-  { image: "/images/gal-2.jpg", caption: "Tea country train ride" },
-  { image: "/images/gal-3.jpg", caption: "Sunrise views in the hill country" },
-  { image: "/images/gal-4.jpg", caption: "Galle Fort evening walk" },
-  { image: "/images/gal-5.jpg", caption: "Safari moments in Yala" },
-  { image: "/images/gal-6.jpg", caption: "Golden beaches in the south" },
+  { image: "/images/gallery/gal-1.jpeg", caption: "Iconic Ella Swing Experience" },
+  { image: "/images/gallery/gal-2.jpeg", caption: "Premium Mangrove Experience – Safe & Guided" },
+  { image: "/images/gallery/gal-3.jpeg", caption: "Explore Sri Lanka’s Hidden Mangroves" },
+  { image: "/images/gallery/gal-4.jpeg", caption: "Cultural Heritage Tour in Kandy" },
+  { image: "/images/gallery/gal-5.jpeg", caption: "SWarm Welcome to Sri Lanka" },
+  { image: "/images/gallery/gal-6.jpeg", caption: "Guided Eco Boat Tour with Lanka Memo Holidays" },
 ];
